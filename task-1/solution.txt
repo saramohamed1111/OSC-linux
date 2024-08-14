@@ -1,0 +1,15 @@
+mkdir sara
+touch one.txt two.txt three.txt four.txt
+mkdir BAD
+touch bad.txt
+mv /home/sara/one.txt /home/sara/Downloads
+touch copy.txt
+cp one.txt copy.txt
+cd /home/sara
+echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" >> three.txt
+nano two.txt
+touch hello.txt
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
+

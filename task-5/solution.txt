@@ -1,0 +1,2 @@
+cut-d',' -f2 info.csv | sort | uniq > emails.txt
+ps -eo pid,cmd --sort=cmd > processes.txt
